@@ -3,7 +3,8 @@
 
 A simple port to ES& of this: https://github.com/dwmkerr/spaceinvaders
 
-## Setup and run
+
+## Setup and run
 
 ```sh
 git clone https://github.com/andreapavoni/spaceinvaders-es6
