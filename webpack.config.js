@@ -6,7 +6,7 @@ const glob = require('glob');
 var isProduction = process.env.NODE_ENV === 'production';
 
 module.exports = {
-  devtool: false, //(!isProduction && 'source-map'),
+  devtool: 'source-map', //(!isProduction && 'source-map'),
   entry: {
     app:   [
       path.resolve(__dirname, './css/style.css'),
